@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bcr.Protocols.Beep", "Bcr.Protocols.Beep\Bcr.Protocols.Beep.csproj", "{989E19BA-DE6F-40B1-9893-F1CEB0846B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bcr.Protocols.Beep.Test", "Bcr.Protocols.Beep.Test\Bcr.Protocols.Beep.Test.csproj", "{5E5D188C-BEB6-45BC-BCCE-1A168788F726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91E43EB9-614B-4944-B68E-74128D721494}"
+	ProjectSection(SolutionItems) = preProject
+		Bcr.Protocols.Beep.vsmdi = Bcr.Protocols.Beep.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Bcr.Protocols.Beep.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{989E19BA-DE6F-40B1-9893-F1CEB0846B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989E19BA-DE6F-40B1-9893-F1CEB0846B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989E19BA-DE6F-40B1-9893-F1CEB0846B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989E19BA-DE6F-40B1-9893-F1CEB0846B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5D188C-BEB6-45BC-BCCE-1A168788F726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5D188C-BEB6-45BC-BCCE-1A168788F726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5D188C-BEB6-45BC-BCCE-1A168788F726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5D188C-BEB6-45BC-BCCE-1A168788F726}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
