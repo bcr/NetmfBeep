@@ -31,6 +31,9 @@
   <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <ItemGroup>
     <Compile Include="CrLfDataSink.cs" />
+    <Compile Include="Frame.cs" />
+    <Compile Include="FramePayload.cs" />
+    <Compile Include="FrameTrailer.cs" />
     <Compile Include="FrameType.cs" />
     <Compile Include="IDataSink.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

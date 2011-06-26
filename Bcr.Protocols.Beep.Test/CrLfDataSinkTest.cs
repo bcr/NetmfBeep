@@ -83,7 +83,7 @@ namespace Bcr.Protocols.Beep.Test
             Assert.AreEqual(testString2, fixture.FinalString);
         }
 
-        private static void WritePedanticData(IDataSink fixture, byte[] testStringBytes)
+        public static void WritePedanticData(IDataSink fixture, byte[] testStringBytes)
         {
             Assert.IsFalse(fixture.IsDataCompleted);
             for (int counter = 0;counter < testStringBytes.Length;++counter)

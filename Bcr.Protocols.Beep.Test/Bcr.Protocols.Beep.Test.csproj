@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FrameHeaderTest.cs" />
+    <Compile Include="FrameTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CrLfDataSinkTest.cs" />
     <Compile Include="UtilTest.cs" />
