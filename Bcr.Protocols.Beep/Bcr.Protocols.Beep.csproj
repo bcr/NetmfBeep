@@ -31,9 +31,11 @@
   <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <ItemGroup>
     <Compile Include="CrLfDataSink.cs" />
+    <Compile Include="FrameType.cs" />
     <Compile Include="IDataSink.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FrameHeader.cs" />
+    <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.SPOT.Native" />
