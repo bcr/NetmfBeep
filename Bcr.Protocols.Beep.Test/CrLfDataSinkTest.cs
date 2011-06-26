@@ -60,6 +60,29 @@ namespace Bcr.Protocols.Beep.Test
             Assert.AreEqual("hi\r\n", fixture.FinalString);
         }
 
+        [TestMethod]
+        public void TestReset()
+        {
+            var fixture = new CrLfDataSink();
+            const string testString = "hi\r\n";
+            var testStringBytes = Encoding.ASCII.GetBytes(testString);
+
+            Assert.IsFalse(fixture.IsDataCompleted);
+            Assert.AreEqual(testStringBytes.Length, fixture.AddBytes(testStringBytes, 0, testStringBytes.Length));
+            Assert.IsTrue(fixture.IsDataCompleted);
+            Assert.AreEqual(testString, fixture.FinalString);
+
+            fixture.Reset();
+
+            const string testString2 = "there\r\n";
+            var testStringBytes2 = Encoding.ASCII.GetBytes(testString2);
+
+            Assert.IsFalse(fixture.IsDataCompleted);
+            Assert.AreEqual(testStringBytes2.Length, fixture.AddBytes(testStringBytes2, 0, testStringBytes2.Length));
+            Assert.IsTrue(fixture.IsDataCompleted);
+            Assert.AreEqual(testString2, fixture.FinalString);
+        }
+
         private static void WritePedanticData(IDataSink fixture, byte[] testStringBytes)
         {
             Assert.IsFalse(fixture.IsDataCompleted);
