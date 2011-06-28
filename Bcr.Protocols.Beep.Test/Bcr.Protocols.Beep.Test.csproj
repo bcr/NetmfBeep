@@ -45,6 +45,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataPipe.cs" />
     <Compile Include="FrameHeaderTest.cs" />
     <Compile Include="FrameTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -36,11 +36,9 @@
     <Compile Include="FrameTrailer.cs" />
     <Compile Include="FrameType.cs" />
     <Compile Include="IDataSink.cs" />
+    <Compile Include="IDataSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FrameHeader.cs" />
     <Compile Include="Util.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Microsoft.SPOT.Native" />
   </ItemGroup>
 </Project>
